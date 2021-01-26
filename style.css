@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: Open Sans
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden1 {
+    opacity: 0;
+    transition: 1s;
+}
+
+.block1 {
+    opacity: 1;
+    transition: 1s;
+}
+
+.block {
+    display: inline-block;
+    margin: 20px;
+}
+
+.btn-img {
+    width: 30px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.btn-close .btn-img {
+    width: 25px;
+}
+
+.btn-choose {
+    border-radius: 50%;
+    border: 0;
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    box-shadow: 0 0 5px 0 #333333;
+}
+
+.btn-choose:hover {
+    box-shadow: 0 0 10px 0 #333333;
+}
+
+.btn-reset {
+    background: none;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow img {
+    width: 20px;
+    transform: rotateZ(90deg);
+    transition: 1s;
+    margin-right: 20px;
+}
+
+.arrow-active img {
+    transform: rotateZ(270deg);
+    transition: 1s;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.previous {
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    background: rgba(255, 255, 254, 0.8);
+    z-index: 1000;
+    padding: 30px;
+}
+
+.nothing {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+}
+
+.nothing h2 {
+    color: #cfcfcf;
+}
+
+.header {
+    background: #333333;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 0 1.5em;
+    margin: 20px 0;
+}
+
+.item {
+}
+
+.img-wrap {
+    width: 315px;
+    height: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px 0 #333333;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.right {
+
+}
+
+.left {
+
+}
+
+@media screen and (max-width: 760px) {
+    .block {
+        display: block;
+    }
+
+    .img-wrap {
+        width: 280px;
+        height: 400px;
+    }
+    .btn-choose {
+        margin: 10px;
+    }
+}
